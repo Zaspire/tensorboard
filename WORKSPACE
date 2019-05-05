@@ -20,13 +20,10 @@ versions.check(minimum_bazel_version = "0.22.0")
 
 http_archive(
     name = "io_bazel_rules_closure",
-    sha256 = "0e6de40666f2ebb2b30dc0339745a274d9999334a249b05a3b1f46462e489adf",
-    # The changes that we need for Bazel 0.23 compatibility are not in
-    # any release, so we pin to HEAD as of 2019-02-22.
-    strip_prefix = "rules_closure-87d24b1df8b62405de8dd059cb604fd9d4b1e395",
+    sha256 = "7750c7be3925aff7a7d0d8c3555ee15c672ad5bb3f5e4f70907eeaccfe179602",
+    strip_prefix = "rules_closure-24cd5afbf68e20b0ee545d4267cb7c3780d8b4bd",
     urls = [
-        "https://mirror.bazel.build/github.com/bazelbuild/rules_closure/archive/87d24b1df8b62405de8dd059cb604fd9d4b1e395.tar.gz",
-        "https://github.com/bazelbuild/rules_closure/archive/87d24b1df8b62405de8dd059cb604fd9d4b1e395.tar.gz",  # 2019-02-22
+        "https://github.com/bazelbuild/rules_closure/archive/24cd5afbf68e20b0ee545d4267cb7c3780d8b4bd.tar.gz",  # 2019-05-03
     ],
 )
 
